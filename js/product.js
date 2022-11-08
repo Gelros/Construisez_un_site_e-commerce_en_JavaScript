@@ -60,7 +60,7 @@ function addProductToPanier() {
     let storageStatut = JSON.parse(localStorage.getItem("product"));
     const dataPush = () => {
       if (color == null || color === "") {
-        alert("veuillez selectionner une couleur");
+        alert("veuillez sélectionner une couleur");
       } else if (quantite < 1 || quantite > 100) {
         alert("veuillez choisir entre 1 et 100 articles");
       } else {
